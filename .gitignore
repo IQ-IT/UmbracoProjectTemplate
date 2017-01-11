@@ -297,3 +297,6 @@ __pycache__/
 
 # ImageProcessor DiskCache 
 **/App_Data/cache/
+
+# no web.config
+Web.config
