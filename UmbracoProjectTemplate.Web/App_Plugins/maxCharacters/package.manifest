@@ -1,0 +1,17 @@
+{
+  propertyEditors: [
+    {
+      alias: "umb.maxCharacters",
+      name: "Max Characters",
+      icon: "icon-picture",
+      group: "Rich Content",
+      editor: {
+        view: "~/App_Plugins/maxCharacters/maxCharactersEditor.html"
+      }
+    }
+  ]
+  ,
+  javascript: [
+    '~/App_Plugins/maxCharacters/maxCharactersEditor.controller.js'
+  ]
+}
