@@ -3,10 +3,19 @@
     {
       alias: "umb.maxCharacters",
       name: "Max Characters",
-      icon: "icon-picture",
       group: "Rich Content",
       editor: {
         view: "~/App_Plugins/maxCharacters/maxCharactersEditor.html"
+      },
+      prevalues: {
+        fields: [
+          {
+            label : "Number of characters",
+            description: "The number of characters to limit on",
+            key: "limit",
+            view: "number"
+          }
+        ]
       }
     }
   ]

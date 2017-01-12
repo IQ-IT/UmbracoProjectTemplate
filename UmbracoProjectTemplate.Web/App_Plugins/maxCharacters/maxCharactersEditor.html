@@ -1,4 +1,5 @@
 <div ng-controller="umb.maxCharactersEditorController">
-  <input ng-maxlength="{{limitTo}}" ng-model="model.value">
-  <p>{{model.value.length}} of {{limitTo}}</p>
+  <textarea ng-model="model.value" ng-change="limitchars()"></textarea>
+  <br/>
+  <span ng-bind="info"></span>
 </div>
