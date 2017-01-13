@@ -1,15 +1,19 @@
 ﻿@inherits UmbracoTemplatePage
 @{
-	Layout = null;
+    Layout = null;
 }
 
 <!doctype html>
 <html>
 <head>
-    <title>@Umbraco.Field("title", "@name")</title>
-    
+    <title>@Html.PageTitle(Model.Content)</title>
+    @Html.VersionedCssUrl("/public/css/main.css")
 </head>
 <body>
+
 @RenderBody()
+@* JS files *@
+@Html.VersionedJsUrl("/public/js/main.js")
+
 </body>
 </html>
