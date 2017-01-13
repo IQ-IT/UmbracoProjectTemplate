@@ -1,19 +1,21 @@
-(function() {
-	'use strict';
+/* global angular */
 
-	angular.module('umbraco').controller('umb.maxCharactersEditorController', editorController);
-	editorController.$inject = ['$scope'];
+(function () {
+    'use strict';
 
-		function editorController($scope) {
+    angular.module('umbraco').controller('umb.maxCharactersEditorController', editorController);
+    editorController.$inject = ['$scope'];
 
-			$scope.limitchars = function () {
-	      var limit = $scope.model.config.limit;
-				if ($scope.model.value.length > limit ) {
-					$scope.info = 'You cannot write more then ' + limit  + ' characters!';
-				}
-				else {
-					$scope.info = 'You have ' + (limit - $scope.model.value.length) + ' characters left.';
-				}
-	    };
-		}
+    function editorController($scope) {
+
+        $scope.limitchars = function () {
+            var limit = $scope.model.config.limit;
+            if ($scope.model.value.length > limit) {
+                $scope.info = 'You cannot write more then ' + limit + ' characters!';
+            }
+            else {
+                $scope.info = 'You have ' + (limit - $scope.model.value.length) + ' characters left.';
+            }
+        };
+    }
 })();
