@@ -1,0 +1,26 @@
+{
+  propertyEditors: [
+    {
+      alias: "umb.maxCharacters",
+      name: "Max Characters",
+      group: "Rich Content",
+      editor: {
+        view: "~/App_Plugins/maxCharacters/maxCharactersEditor.html"
+      },
+      prevalues: {
+        fields: [
+          {
+            label : "Number of characters",
+            description: "The number of characters to limit on",
+            key: "limit",
+            view: "number"
+          }
+        ]
+      }
+    }
+  ]
+  ,
+  javascript: [
+    '~/App_Plugins/maxCharacters/maxCharactersEditor.controller.js'
+  ]
+}
