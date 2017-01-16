@@ -1,0 +1,27 @@
+﻿{
+  propertyEditors: [{
+      alias: 'Creuna.GtmDatalayerPropertyEditor',
+      name: 'GTM Datalayer values',
+      group: 'Rich Content',
+      editor: {
+		valueType: 'JSON',
+        view: '~/App_Plugins/Creuna.GtmDatalayerPropertyEditor/gtmDatalayerPropertyEditor.html'
+      },
+      prevalues: {
+        fields: [
+          {
+            label : 'Attributes',
+            description: 'Comma separated list of attributes',
+            key: 'attributes',
+            view: 'textString'
+          }
+        ]
+      }
+    }],
+  javascript: [
+	'~/App_Plugins/Creuna.GtmDatalayerPropertyEditor/gtmDatalayerPropertyEditor.controller.js'
+  ],
+  css: [
+	'~/App_Plugins/Creuna.GtmDatalayerPropertyEditor/gtmDatalayerPropertyEditor.css'
+  ]
+}

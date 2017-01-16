@@ -300,6 +300,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Plugins\Creuna.GtmDatalayerPropertyEditor\gtmDatalayerPropertyEditor.controller.js" />
+    <Content Include="App_Plugins\Creuna.GtmDatalayerPropertyEditor\gtmDatalayerPropertyEditor.css" />
+    <Content Include="App_Plugins\Creuna.GtmDatalayerPropertyEditor\gtmDatalayerPropertyEditor.html" />
     <Content Include="App_Plugins\Creuna.SeoPropertyEditor\seoPropertyEditor.html" />
     <Content Include="App_Plugins\Creuna.SeoPropertyEditor\seoPropetyEditor.controller.js" />
     <Content Include="App_Plugins\maxCharacters\maxCharactersEditor.controller.js" />
@@ -366,6 +369,7 @@
     <Content Include="Views\Textpage.cshtml" />
     <Content Include="Views\_Layout.cshtml" />
     <Content Include="App_Plugins\Creuna.SeoPropertyEditor\package.manifest" />
+    <Content Include="App_Plugins\Creuna.GtmDatalayerPropertyEditor\package.manifest" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -384,6 +388,10 @@
     <ProjectReference Include="..\UmbracoProject.Configure\UmbracoProject.Configure.csproj">
       <Project>{b166ebbd-18a3-4dc3-a150-1d992166939c}</Project>
       <Name>UmbracoProject.Configure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UmbracoProjectTemplate.Library\UmbracoProjectTemplate.Library.csproj">
+      <Project>{3765c60d-279a-4c8c-b2ec-db1cc0308877}</Project>
+      <Name>UmbracoProjectTemplate.Library</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />
