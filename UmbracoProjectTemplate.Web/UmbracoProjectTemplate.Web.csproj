@@ -300,6 +300,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Plugins\Creuna.SeoPropertyEditor\seoPropertyEditor.html" />
+    <Content Include="App_Plugins\Creuna.SeoPropertyEditor\seoPropetyEditor.controller.js" />
     <Content Include="App_Plugins\maxCharacters\maxCharactersEditor.controller.js" />
     <Content Include="App_Plugins\maxCharacters\maxCharactersEditor.html" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.controller.js" />
@@ -363,6 +365,7 @@
     <Content Include="Views\Frontpage.cshtml" />
     <Content Include="Views\Textpage.cshtml" />
     <Content Include="Views\_Layout.cshtml" />
+    <Content Include="App_Plugins\Creuna.SeoPropertyEditor\package.manifest" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -387,6 +390,9 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>App_Plugins\Creuna.SeoPropertyEditor\package.manifest</ApplicationManifest>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
