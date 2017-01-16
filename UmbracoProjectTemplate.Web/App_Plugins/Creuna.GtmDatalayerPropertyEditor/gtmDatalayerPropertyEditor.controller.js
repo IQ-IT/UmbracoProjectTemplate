@@ -12,10 +12,9 @@
                 if (!$scope.model.value.hasOwnProperty(attr))
                     $scope.model.value[attr] = '';
             });
-        _.each($scope.model.value, function(p) {
-                if (!$scope.model.value.hasOwnProperty(p)) return;
-                if (_.contains($scope.attrs, p)) {
-                    delete $scope.model.value[p];
+        _.each(_.keys($scope.model.value), function (key) {
+                if (!_.contains($scope.attrs, key)) {
+                    delete $scope.model.value[key];
                 }
             });
         
