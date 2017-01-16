@@ -389,6 +389,10 @@
       <Project>{b166ebbd-18a3-4dc3-a150-1d992166939c}</Project>
       <Name>UmbracoProject.Configure</Name>
     </ProjectReference>
+    <ProjectReference Include="..\UmbracoProjectTemplate.Library\UmbracoProjectTemplate.Library.csproj">
+      <Project>{3765c60d-279a-4c8c-b2ec-db1cc0308877}</Project>
+      <Name>UmbracoProjectTemplate.Library</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
