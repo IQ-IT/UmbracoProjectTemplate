@@ -1,0 +1,10 @@
+﻿<div ng-controller="Creuna.GtmDatalayerPropertyController" class="row gtmDataLayerPropertyEditor">
+    <div class="row gtmDatalayerPropertyHeader">
+        <div class="span4">Attribute name</div>
+        <div class="span8">Attribute value</div>
+    </div>
+    <div class="row gtmDatalayerPropertyData" ng-repeat="attr in attrs">
+        <div class="span4">{{attr}}</div>
+        <div class="span8"><input type="text" name="visitorType" class="span12" ng-model="model.value[attr]" /></div>
+    </div>
+</div>

@@ -300,6 +300,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Plugins\Creuna.GtmDatalayerPropertyEditor\gtmDatalayerPropertyEditor.controller.js" />
+    <Content Include="App_Plugins\Creuna.GtmDatalayerPropertyEditor\gtmDatalayerPropertyEditor.css" />
+    <Content Include="App_Plugins\Creuna.GtmDatalayerPropertyEditor\gtmDatalayerPropertyEditor.html" />
     <Content Include="App_Plugins\Creuna.SeoPropertyEditor\seoPropertyEditor.html" />
     <Content Include="App_Plugins\Creuna.SeoPropertyEditor\seoPropetyEditor.controller.js" />
     <Content Include="App_Plugins\maxCharacters\maxCharactersEditor.controller.js" />
@@ -366,6 +369,7 @@
     <Content Include="Views\Textpage.cshtml" />
     <Content Include="Views\_Layout.cshtml" />
     <Content Include="App_Plugins\Creuna.SeoPropertyEditor\package.manifest" />
+    <Content Include="App_Plugins\Creuna.GtmDatalayerPropertyEditor\package.manifest" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
