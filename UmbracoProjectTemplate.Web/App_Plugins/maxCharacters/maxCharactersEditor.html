@@ -1,5 +1,16 @@
 <div ng-controller="umb.maxCharactersEditorController">
-  <textarea ng-model="model.value" ng-change="limitchars()"></textarea>
-  <br/>
-  <span ng-bind="info"></span>
+	<label>Title:</label><br>
+  <input ng-model="model.title.value" ng-change="limitchars_title()"><br/>
+  <span ng-bind="info_title"></span><br><br>
+  <label>Description:</label><br>
+  <textarea ng-model="model.description.value" ng-change="limitchars_description()"></textarea><br/>
+  <span ng-bind="info_description"></span><br><br>
+  <label>Robots:</label><br>
+  <input type="checkbox">No Index
+  <input type="checkbox">No Follow<br><br>
+  <label>Canonical url</label><br>
+  <div ng-click="pickLink()" ng-if="!control.value.link">
+    Pick link<br>
+    <div class="iconBox"><i class="icon icon-add" title="Add" localize="title"></i></div>
+  </div>
 </div>
