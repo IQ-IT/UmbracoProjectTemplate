@@ -10,9 +10,15 @@
       prevalues: {
         fields: [
           {
-            label : "Number of characters",
+            label : "Number of characters on title",
             description: "The number of characters to limit on",
-            key: "limit",
+            key: "limit_title",
+            view: "number"
+          },
+          {
+            label : "Number of characters on description",
+            description: "The number of characters to limit on",
+            key: "limit_description",
             view: "number"
           }
         ]
