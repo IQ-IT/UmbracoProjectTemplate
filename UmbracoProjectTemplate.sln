@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{8D99A316-485F-4641-8D62-13C4CA9ED5F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoProjectTemplate.Library", "UmbracoProjectTemplate.Library\UmbracoProjectTemplate.Library.csproj", "{3765C60D-279A-4C8C-B2EC-DB1CC0308877}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{B166EBBD-18A3-4DC3-A150-1D992166939C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B166EBBD-18A3-4DC3-A150-1D992166939C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B166EBBD-18A3-4DC3-A150-1D992166939C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3765C60D-279A-4C8C-B2EC-DB1CC0308877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3765C60D-279A-4C8C-B2EC-DB1CC0308877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3765C60D-279A-4C8C-B2EC-DB1CC0308877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3765C60D-279A-4C8C-B2EC-DB1CC0308877}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
