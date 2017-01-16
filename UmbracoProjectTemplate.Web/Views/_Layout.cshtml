@@ -2,6 +2,9 @@
 @inherits UmbracoTemplatePage
 @{
     Layout = null;
+    // Add some attrs to datalayer
+    //var attrs = Model.Content.GetPropertyValue<Dictionary<string, string>>("gtmDatalayerAttrs");
+    //attrs.Add("pageId", Model.Content.Id.ToString());
 }
 
 <!doctype html>
@@ -10,14 +13,13 @@
     <title>@Html.PageTitle(Model.Content)</title>
     @Html.VersionedCssUrl("/public/css/main.css")
     @Html.RenderDatalayerScript(Model.Content, "gtmDatalayerAttrs")
+    @*@Html.RenderDatalayerScript(attrs)*@
 </head>
 <body>
 
 @RenderBody()
 @* JS files *@
 @Html.VersionedJsUrl("/public/js/main.js")
-    
-
 
 </body>
 </html>

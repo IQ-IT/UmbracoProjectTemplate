@@ -15,6 +15,11 @@ namespace UmbracoProjectTemplate.Library.Extensions
                 return MvcHtmlString.Create("");
 
             var datalayerProps = content.GetPropertyValue<Dictionary<string, string>>(dlProperty);
+            return RenderDatalayerScript(helper, datalayerProps);
+        }
+
+        public static MvcHtmlString RenderDatalayerScript(this HtmlHelper helper, Dictionary<string, string> datalayerProps)
+        {
             var result = new StringBuilder();
             result.Append(@"<script>dataLayer = [{");
             result.Append(string.Join(",", datalayerProps.Select(i => $"'{i.Key}':'{i.Value}'")));
