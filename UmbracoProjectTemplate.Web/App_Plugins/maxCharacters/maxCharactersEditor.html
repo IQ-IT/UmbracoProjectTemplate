@@ -1,16 +1,21 @@
-<div ng-controller="umb.maxCharactersEditorController">
+<div class="Seoproperty" ng-controller="umb.maxCharactersEditorController">
 	<label>Title:</label><br>
-  <input ng-model="model.title.value" ng-change="limitchars_title()"><br/>
+  <input type="text" ng-model="model.value.title" ng-change="limitchars_title()"><br/>
   <span ng-bind="info_title"></span><br><br>
   <label>Description:</label><br>
-  <textarea ng-model="model.description.value" ng-change="limitchars_description()"></textarea><br/>
+  <textarea ng-model="model.value.description" ng-change="limitchars_description()"></textarea><br/>
   <span ng-bind="info_description"></span><br><br>
   <label>Robots:</label><br>
-  <input type="checkbox">No Index
-  <input type="checkbox">No Follow<br><br>
-  <label>Canonical url</label><br>
-  <div ng-click="pickLink()" ng-if="!control.value.link">
-    Pick link<br>
-    <div class="iconBox"><i class="icon icon-add" title="Add" localize="title"></i></div>
+  <input type="checkbox" ng-model="model.value.noIndex"> No Index
+  <input type="checkbox" ng-model="model.value.noFollow"> No Follow<br><br>
+  <label>Canonical url:</label><br>
+  <div ng-click="pickLink()">
+    <div class="iconBox btn">Pick link <i class="icon icon-add" title="Add" localize="title"></i></div>
+    <p ng-bind="model.value.canonicalId"></p>
+  </div>
+  <div class="googleview">
+    <p class="title" ng-maxlength="60" ng-bind="model.value.title"></p>
+    <p class="url">test.com/{{model.value.canonicalId}}</p>
+    <p class="description" ng-bind="model.value.description"></p>
   </div>
 </div>

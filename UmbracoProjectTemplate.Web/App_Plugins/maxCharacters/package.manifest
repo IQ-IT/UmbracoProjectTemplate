@@ -5,7 +5,8 @@
       name: "Max Characters",
       group: "Rich Content",
       editor: {
-        view: "~/App_Plugins/maxCharacters/maxCharactersEditor.html"
+        view: "~/App_Plugins/maxCharacters/maxCharactersEditor.html",
+        "hideLabel": true
       },
       prevalues: {
         fields: [
