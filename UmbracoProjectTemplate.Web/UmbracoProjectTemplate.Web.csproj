@@ -386,6 +386,46 @@
     <Content Include="Config\uSyncCore.Config" />
     <Content Include="Config\uSyncBackOffice.Config" />
     <Content Include="App_Plugins\uSync\package.manifest" />
+    <Content Include="uSync\data\DataType\analyticscomposition-gtm-datalayer-values\AnalyticsCompositionGTMDatalayerValues.config" />
+    <Content Include="uSync\data\DataType\approved-color\ApprovedColor.config" />
+    <Content Include="uSync\data\DataType\checkbox-list\CheckboxList.config" />
+    <Content Include="uSync\data\DataType\content-picker\ContentPicker.config" />
+    <Content Include="uSync\data\DataType\contentcomposition-body-text-rich-text-editor\ContentCompositionBodyTextRichTextEditor.config" />
+    <Content Include="uSync\data\DataType\date-picker-with-time\DatePickerWithTime.config" />
+    <Content Include="uSync\data\DataType\date-picker\DatePicker.config" />
+    <Content Include="uSync\data\DataType\dropdown-multiple\DropdownMultiple.config" />
+    <Content Include="uSync\data\DataType\dropdown\Dropdown.config" />
+    <Content Include="uSync\data\DataType\image-cropper\ImageCropper.config" />
+    <Content Include="uSync\data\DataType\label\Label.config" />
+    <Content Include="uSync\data\DataType\list-view-content\ListViewContent.config" />
+    <Content Include="uSync\data\DataType\list-view-media\ListViewMedia.config" />
+    <Content Include="uSync\data\DataType\list-view-members\ListViewMembers.config" />
+    <Content Include="uSync\data\DataType\max-characters\MaxCharacters.config" />
+    <Content Include="uSync\data\DataType\media-picker\MediaPicker.config" />
+    <Content Include="uSync\data\DataType\member-picker\MemberPicker.config" />
+    <Content Include="uSync\data\DataType\multiple-media-picker\MultipleMediaPicker.config" />
+    <Content Include="uSync\data\DataType\numeric\Numeric.config" />
+    <Content Include="uSync\data\DataType\radiobox\Radiobox.config" />
+    <Content Include="uSync\data\DataType\related-links\RelatedLinks.config" />
+    <Content Include="uSync\data\DataType\richtext-editor\RichtextEditor.config" />
+    <Content Include="uSync\data\DataType\tags\Tags.config" />
+    <Content Include="uSync\data\DataType\textarea\Textarea.config" />
+    <Content Include="uSync\data\DataType\textstring\Textstring.config" />
+    <Content Include="uSync\data\DataType\true-false\Truefalse.config" />
+    <Content Include="uSync\data\DataType\upload\Upload.config" />
+    <Content Include="uSync\data\DocumentType\compositions\analyticscomposition\def.config" />
+    <Content Include="uSync\data\DocumentType\compositions\contentcomposition\def.config" />
+    <Content Include="uSync\data\DocumentType\compositions\metadatacomposition\def.config" />
+    <Content Include="uSync\data\DocumentType\containers\website\def.config" />
+    <Content Include="uSync\data\DocumentType\pages\frontpage\def.config" />
+    <Content Include="uSync\data\DocumentType\pages\textpage\def.config" />
+    <Content Include="uSync\data\Languages\enUS.config" />
+    <Content Include="uSync\data\MediaType\file\def.config" />
+    <Content Include="uSync\data\MediaType\folder\def.config" />
+    <Content Include="uSync\data\MediaType\image\def.config" />
+    <Content Include="uSync\data\Template\_layout\frontpage\Frontpage.config" />
+    <Content Include="uSync\data\Template\_layout\Layout.config" />
+    <Content Include="uSync\data\Template\_layout\textpage\Textpage.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -401,10 +441,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UmbracoProject.Configure\UmbracoProject.Configure.csproj">
-      <Project>{b166ebbd-18a3-4dc3-a150-1d992166939c}</Project>
-      <Name>UmbracoProject.Configure</Name>
-    </ProjectReference>
     <ProjectReference Include="..\UmbracoProjectTemplate.Library\UmbracoProjectTemplate.Library.csproj">
       <Project>{3765c60d-279a-4c8c-b2ec-db1cc0308877}</Project>
       <Name>UmbracoProjectTemplate.Library</Name>
