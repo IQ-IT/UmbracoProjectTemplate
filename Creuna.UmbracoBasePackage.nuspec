@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Creuna.UmbracoBasePackage</id>
+    <version>0.9.0</version>
+    <authors>jesper.hauge</authors>
+    <owners>jesper.hauge</owners>
+    <projectUrl>https://github.com/jhauge/UmbracoProjectTemplate</projectUrl>
+    <iconUrl>http://myc.creuna.no/logo/8/show</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Base umbraco package for use on new Umbraco installs, adds some base composition, container and page content types</description>
+    <releaseNotes>Fist release</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>umbraco creuna</tags>
+    <dependencies>
+      <dependency id="UmbracoCms" version="5.7.5" />
+      <dependency id="uSync" version="3.3.0.740" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src=".\HtmlHelpers.cs.pp" target="content\Helpers" />
+    <file src=".\UmbracoProjectTemplate.Library\obj\Release\UmbracoProjectTemplate.Library.dll" target="lib\net461" />
+    <file src=".\UmbracoProjectTemplate.Web\App_Plugins\Creuna.GtmDatalayerPropertyEditor\**" target="content\App_Plugins\Creuna.GtmDatalayerPropertyEditor" />
+    <file src=".\UmbracoProjectTemplate.Web\public\**" target="content\public" />
+    <file src=".\UmbracoProjectTemplate.Web\uSync\data\**" target="content\uSync\data" />
+    <file src=".\UmbracoProjectTemplate.Web\Views\*.cshtml" target="content\Views" />
+  </files>
+</package>

@@ -1,1 +1,3 @@
-Test Readme file for testing pull request
+# Base umbraco package project
+
+This project is used to build and configure Creunas base Umbraco package
