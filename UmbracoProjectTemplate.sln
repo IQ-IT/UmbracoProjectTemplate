@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8A70272B-7EFD-405A-8D89-6A1947931B2F}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		createPackage.ps1 = createPackage.ps1
 		Creuna.UmbracoBasePackage.nuspec = Creuna.UmbracoBasePackage.nuspec
 		readme.md = readme.md
 	EndProjectSection
