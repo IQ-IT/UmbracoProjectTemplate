@@ -3,6 +3,7 @@ using System.Web;
 using Umbraco.Core;
 using Umbraco.Core.Logging;
 using UmbracoProject.Configure.Entities;
+using UmbracoProject.Configure.Models;
 
 namespace UmbracoProject.Configure
 {
