@@ -14,7 +14,7 @@
   <label><strong>Canonical url:</strong></label>
   <small>Used for main header on page</small>
   <div ng-click="pickLink()" ng-hide="model.value.canonicalId" class="iconBox btn">Add link <i class="icon icon-add" title="Add"></i></div>
-  <p ng-show="model.value.canonicalId">http://domain.com/{{model.value.canonicalName}} <div ng-click="removePickLink()" ng-show="model.value.canonicalId" class="iconBox btn">Remove Link <i class="icon icon-remove" title="Remove"></i></div></p>
+  <p ng-show="model.value.canonicalId">{{model.value.canonicalName}} <div ng-click="removePickLink()" ng-show="model.value.canonicalId" class="iconBox btn">Remove Link <i class="icon icon-remove" title="Remove"></i></div></p>
   <div class="googleview">
     <p class="title" ng-maxlength="60" ng-bind="model.value.title"></p>
     <p class="url">http://domain.com/{{currentNode.name}}</p>
