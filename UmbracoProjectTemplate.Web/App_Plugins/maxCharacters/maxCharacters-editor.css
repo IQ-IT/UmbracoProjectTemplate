@@ -7,6 +7,16 @@
 	height: 500px;
 }
 
+.Seoproperty label {
+	margin-bottom: 0;
+}
+
+.Seoproperty small {
+	display: block;
+	margin-bottom: 5px;
+}
+
+
 .Seoproperty .googleview {
 	padding: 15px;
 	border: 1px solid #f7f7f7;

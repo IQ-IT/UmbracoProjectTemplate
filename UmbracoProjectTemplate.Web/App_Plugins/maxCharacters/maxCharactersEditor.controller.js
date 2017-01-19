@@ -39,8 +39,13 @@
                 multipicker: false,
                 callback: function(response) {
                     $scope.model.value.canonicalId = response.id;
+                    $scope.model.value.canonicalName = response.name;
                 }
             });
+        };
+        $scope.removePickLink = function () {
+            $scope.model.value.canonicalId = null;
+            $scope.model.value.canonicalName = null;
         };
     }
 })();
