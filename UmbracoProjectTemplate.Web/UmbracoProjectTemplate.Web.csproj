@@ -426,6 +426,7 @@
     <Content Include="uSync\data\Template\_layout\frontpage\Frontpage.config" />
     <Content Include="uSync\data\Template\_layout\Layout.config" />
     <Content Include="uSync\data\Template\_layout\textpage\Textpage.config" />
+    <Content Include="UmbracoProjectTemplate.Web.wpp.targets" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
