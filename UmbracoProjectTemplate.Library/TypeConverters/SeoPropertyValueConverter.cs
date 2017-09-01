@@ -9,7 +9,7 @@ namespace UmbracoProjectTemplate.Library.TypeConverters
     {
         public override bool IsConverter(PublishedPropertyType propertyType)
         {
-            return propertyType.PropertyEditorAlias.Equals("Creuna.SeoPropertyEditor");
+            return propertyType.PropertyEditorAlias.Equals("Addition.SeoPropertyEditor");
         }
 
         public override object ConvertSourceToObject(PublishedPropertyType propertyType, object source, bool preview)

@@ -1,11 +1,11 @@
 ﻿{
   propertyEditors: [{
-      alias: 'Creuna.GtmDatalayerPropertyEditor',
+      alias: 'Addition.GtmDatalayerPropertyEditor',
       name: 'GTM Datalayer values',
       group: 'Rich Content',
       editor: {
 		valueType: 'JSON',
-        view: '~/App_Plugins/Creuna.GtmDatalayerPropertyEditor/gtmDatalayerPropertyEditor.html'
+        view: '~/App_Plugins/Addition.GtmDatalayerPropertyEditor/gtmDatalayerPropertyEditor.html'
       },
       prevalues: {
         fields: [
@@ -19,9 +19,9 @@
       }
     }],
   javascript: [
-	'~/App_Plugins/Creuna.GtmDatalayerPropertyEditor/gtmDatalayerPropertyEditor.controller.js'
+	'~/App_Plugins/Addition.GtmDatalayerPropertyEditor/gtmDatalayerPropertyEditor.controller.js'
   ],
   css: [
-	'~/App_Plugins/Creuna.GtmDatalayerPropertyEditor/gtmDatalayerPropertyEditor.css'
+	'~/App_Plugins/Addition.GtmDatalayerPropertyEditor/gtmDatalayerPropertyEditor.css'
   ]
 }

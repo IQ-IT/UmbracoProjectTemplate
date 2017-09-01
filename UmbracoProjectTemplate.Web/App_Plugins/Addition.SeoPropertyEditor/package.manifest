@@ -1,11 +1,11 @@
-{
+﻿{
   propertyEditors: [
     {
-      alias: "umb.maxCharacters",
-      name: "Max Characters",
+      alias: "Addition.SeoPropertyEditor",
+      name: "SEO properties",
       group: "Rich Content",
       editor: {
-        view: "~/App_Plugins/maxCharacters/maxCharactersEditor.html",
+        view: "~/App_Plugins/Addition.SeoPropertyEditor/seoPropertyEditor.html",
         "hideLabel": false
       },
       prevalues: {
@@ -25,9 +25,11 @@
         ]
       }
     }
-  ]
-  ,
+  ],
   javascript: [
-    '~/App_Plugins/maxCharacters/maxCharactersEditor.controller.js'
+    '~/App_Plugins/Addition.SeoPropertyEditor/seoPropertyEditor.controller.js'
+  ],
+  css: [
+	'~/App_Plugins/Addition.SeoPropertyEditor/seoPropertyEditor.css'
   ]
 }

@@ -309,11 +309,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Plugins\Creuna.GtmDatalayerPropertyEditor\gtmDatalayerPropertyEditor.controller.js" />
-    <Content Include="App_Plugins\Creuna.GtmDatalayerPropertyEditor\gtmDatalayerPropertyEditor.css" />
-    <Content Include="App_Plugins\Creuna.GtmDatalayerPropertyEditor\gtmDatalayerPropertyEditor.html" />
-    <Content Include="App_Plugins\Creuna.SeoPropertyEditor\seoPropertyEditor.html" />
-    <Content Include="App_Plugins\Creuna.SeoPropertyEditor\seoPropetyEditor.controller.js" />
+    <Content Include="App_Plugins\Addition.GtmDatalayerPropertyEditor\gtmDatalayerPropertyEditor.controller.js" />
+    <Content Include="App_Plugins\Addition.GtmDatalayerPropertyEditor\gtmDatalayerPropertyEditor.css" />
+    <Content Include="App_Plugins\Addition.GtmDatalayerPropertyEditor\gtmDatalayerPropertyEditor.html" />
+    <Content Include="App_Plugins\Addition.SeoPropertyEditor\seoPropertyEditor.css" />
+    <Content Include="App_Plugins\Addition.SeoPropertyEditor\seoPropertyEditor.html" />
+    <Content Include="App_Plugins\Addition.SeoPropertyEditor\seoPropertyEditor.controller.js" />
     <Content Include="App_Plugins\maxCharacters\maxCharactersEditor.controller.js" />
     <Content Include="App_Plugins\maxCharacters\maxCharactersEditor.html" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.controller.js" />
@@ -381,8 +382,8 @@
     <Content Include="Views\Frontpage.cshtml" />
     <Content Include="Views\Textpage.cshtml" />
     <Content Include="Views\_Layout.cshtml" />
-    <Content Include="App_Plugins\Creuna.SeoPropertyEditor\package.manifest" />
-    <Content Include="App_Plugins\Creuna.GtmDatalayerPropertyEditor\package.manifest" />
+    <Content Include="App_Plugins\Addition.SeoPropertyEditor\package.manifest" />
+    <Content Include="App_Plugins\Addition.GtmDatalayerPropertyEditor\package.manifest" />
     <Content Include="Config\uSyncCore.Config" />
     <Content Include="Config\uSyncBackOffice.Config" />
     <Content Include="App_Plugins\uSync\package.manifest" />
@@ -453,7 +454,7 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationManifest>App_Plugins\Creuna.SeoPropertyEditor\package.manifest</ApplicationManifest>
+    <ApplicationManifest>App_Plugins\Addition.SeoPropertyEditor\package.manifest</ApplicationManifest>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
