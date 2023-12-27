@@ -1,0 +1,824 @@
+repo_name: IQ-IT/UmbracoProjectTemplate
+report_id: 3c5d5fbf63631a1827df037fc9495dc1
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-27T20:00:42+00:00'
+requested_by: jhauge
+provider: github
+branch: master
+detected_tools_count: 55
+tools:
+- name: ASP.NET
+  description: An open source web framework for building modern web apps and services
+    with .NET
+  website_url: https://www.asp.net/
+  version: 4.6.1
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/UmbracoProjectTemplate.Library.csproj
+  detection_source: UmbracoProjectTemplate.Library/UmbracoProjectTemplate.Library.csproj
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Markdown
+  description: Text-to-HTML conversion tool/syntax for web writers, by John Gruber
+  website_url: http://daringfireball.net/projects/markdown/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1147/markdown.png
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source: UmbracoProjectTemplate.Web/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-11 11:35:45.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source: UmbracoProjectTemplate.Web/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-11 11:35:45.000000000 Z
+- name: Owin
+  description: A standard interface between .NET web servers and web applications
+  website_url: http://owin.org/
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Server Interface
+  image_url: https://img.stackshare.io/service/4967/New_Project__95_.png
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: Roslyn
+  description: Open-source C# and Visual Basic compilers with rich code analysis APIs
+  website_url: https://github.com/dotnet/roslyn
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/20930/default_275fb27c037c57f3394917ebca90dc2465c97ed8.png
+  detection_source: UmbracoProjectTemplate.Web/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-11 11:35:45.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source: UmbracoProjectTemplate.sln
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-11 11:35:45.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source: Repo Metadata
+- name: Umbraco
+  description: Open source CMS
+  website_url: http://umbraco.com
+  version: 5.7.5
+  open_source: false
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: Self-Hosted Blogging / CMS
+  image_url: https://img.stackshare.io/service/2005/hIGLHjkE_400x400.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/Addition.UmbracoBasePackage.nuspec
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: AutoMapper
+  description: A convention-based object-object mapper
+  package_url: https://www.nuget.org/AutoMapper
+  version: 3.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12871/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: ClientDependency
+  description: ClientDependency is a framework for simplifying colaborative development
+    of ASP.NET components
+  package_url: https://www.nuget.org/ClientDependency
+  version: 1.9.2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13214/default_c8e572417e69bbdabda8ecc4a08c016319f24023.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: Examine
+  description: Examine is a wrapper for getting a Lucene index up and running for
+    any type of data and comes with an API to search it
+  package_url: https://www.nuget.org/Examine
+  version: 0.1.70
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13891/default_5b0d89659f8ef29e072f4f056edfe6596b2feb77.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: HtmlAgilityPack
+  description: This is an agile HTML parser that builds a read/write DOM and supports
+    plain XPATH or XSLT
+  package_url: https://www.nuget.org/HtmlAgilityPack
+  version: 1.4.9
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12918/default_e43fb8cd51d87352a1197706afa527de5c3baecd.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: ImageProcessor
+  description: Image Processor is an easy to use and extend processing library written
+    in C#
+  package_url: https://www.nuget.org/ImageProcessor
+  version: 2.5.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13415/default_58586312c472dfb09866d07812bed5501fb0b524.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: ImageProcessor.Web
+  description: ImageProcessor.Web adds a configurable HttpModule to your website which
+    allows on-the-fly processing of image files
+  package_url: https://www.nuget.org/ImageProcessor.Web
+  version: 4.7.2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13900/default_f71362d5cdd81a1583eb441b931fae9d72ff1211.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: Lucene.Net
+  description: Lucene.Net is a full-text search engine library capable of advanced
+    text analysis, indexing, and searching
+  package_url: https://www.nuget.org/Lucene.Net
+  version: 2.9.4
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13172/default_a5e8cd728170fc92850284a53a17ff7deb73f318.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: Microsoft.AspNet.Identity.Core
+  description: Core interfaces for ASP.NET Identity
+  package_url: https://www.nuget.org/Microsoft.AspNet.Identity.Core
+  version: 2.2.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13002/default_971bb108ce002c2032e407a9046135e1542c46c7.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: Microsoft.AspNet.Identity.Owin
+  description: Owin implementation for ASP.NET Identity
+  package_url: https://www.nuget.org/Microsoft.AspNet.Identity.Owin
+  version: 2.2.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13022/default_a0b0eac5a401515996bd8fc359ffcfbc844cbe90.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+  vulnerabilities:
+  - name: " Microsoft Security Advisory CVE-2023-33170: .NET Security Feature Bypass
+      Vulnerability"
+    cve_id: CVE-2023-33170
+    cve_url: https://github.com/advisories/GHSA-25c8-p796-jg6r
+    detected_date: Jul 12
+    severity: high
+    first_patched: 2.2.4
+- name: Microsoft.AspNet.Mvc
+  description: ASP.NET MVC is a web framework that gives you a powerful, patterns-based
+    way to build dynamic websites and Web APIs
+  package_url: https://www.nuget.org/Microsoft.AspNet.Mvc
+  version: 5.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12850/default_0f5233770e71818507f2339042e7e61bef904e70.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: Microsoft.AspNet.Razor
+  description: Razor is a markup syntax for adding server-side logic to web pages
+  package_url: https://www.nuget.org/Microsoft.AspNet.Razor
+  version: 3.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12930/default_f8bf1110f8f0beaf5fae35865de7f77ccd1139f0.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: Microsoft.AspNet.WebApi
+  description: This package contains everything you need to host ASP.NET Web API on
+    IIS
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi
+  version: 5.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12923/default_039376cf26bae25623c106aea6185b89980a1e50.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: Microsoft.AspNet.WebApi.Client
+  description: This package adds support for formatting and content negotiation to
+    System.Net.Http
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi.Client
+  version: 5.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12870/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: Microsoft.AspNet.WebApi.Core
+  description: This package contains the core runtime assemblies for ASP.NET Web API
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi.Core
+  version: 5.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12879/default_4b18ad6ce0b5b2bd1dc822207c362ce8e0f74098.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: Microsoft.AspNet.WebApi.WebHost
+  description: This package contains everything you need to host ASP.NET Web API on
+    IIS
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi.WebHost
+  version: 5.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12978/default_d871263d8798790404638a4d3692cc70b6389166.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: Microsoft.AspNet.WebPages
+  description: This package contains core runtime assemblies shared between ASP.NET
+    MVC and ASP.NET Web Pages
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebPages
+  version: 3.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12947/default_d871263d8798790404638a4d3692cc70b6389166.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: Microsoft.CodeAnalysis.Analyzers
+  description: Analyzers for consumers of Microsoft.CodeAnalysis NuGet package, i.e
+  package_url: https://www.nuget.org/Microsoft.CodeAnalysis.Analyzers
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13342/default_a8c5a9d917d12544e0591a4182335d690601b375.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Web/packages.config
+  detection_source: UmbracoProjectTemplate.Web/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-11 11:35:45.000000000 Z
+- name: Microsoft.CodeAnalysis.CSharp
+  description: ".NET Compiler Platform"
+  package_url: https://www.nuget.org/Microsoft.CodeAnalysis.CSharp
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12967/default_bd8397841d0aa5de035298a9130ee2dc9d9b0ece.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Web/packages.config
+  detection_source: UmbracoProjectTemplate.Web/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-11 11:35:45.000000000 Z
+- name: Microsoft.CodeAnalysis.Common
+  description: A shared package used by the Microsoft .NET Compiler Platform
+  package_url: https://www.nuget.org/Microsoft.CodeAnalysis.Common
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13243/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Web/packages.config
+  detection_source: UmbracoProjectTemplate.Web/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-11 11:35:45.000000000 Z
+- name: Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+  description: Replacement CodeDOM providers that use the new .NET Compiler Platform
+  package_url: https://www.nuget.org/Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+  version: 1.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13106/default_048f7c1081704627a12b8b5e168cfdbc9f28fb33.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Web/packages.config
+  detection_source: UmbracoProjectTemplate.Web/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-11 11:35:45.000000000 Z
+- name: Microsoft.IO.RecyclableMemoryStream
+  description: A pooled MemoryStream allocator to decrease GC load and improve performance
+    on highly scalable systems
+  package_url: https://www.nuget.org/Microsoft.IO.RecyclableMemoryStream
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13437/default_1eef7832e807cb1f2ca919f1990fe06dfb2504f3.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: Microsoft.Net.Compilers
+  description: 'Note: This package is deprecated'
+  package_url: https://www.nuget.org/Microsoft.Net.Compilers
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13170/default_81ac985912284073db895b0d26abf3657532a164.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Web/packages.config
+  detection_source: UmbracoProjectTemplate.Web/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-11 11:35:45.000000000 Z
+- name: Microsoft.Owin
+  description: Provides a set of helper types and abstractions for simplifying the
+    creation of OWIN components
+  package_url: https://www.nuget.org/Microsoft.Owin
+  version: 3.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12889/default_d56a77cbb06d3dae6daef9669108e3e01d2494af.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+  vulnerabilities:
+  - name: " .NET Denial of Service Vulnerability"
+    cve_id: CVE-2022-29117
+    cve_url: https://github.com/advisories/GHSA-3rq8-h3gj-r5c6
+    detected_date: Aug 31
+    severity: high
+    first_patched: 4.2.2
+  - name: Cookie parsing failure
+    cve_id: CVE-2020-1045
+    cve_url: https://github.com/advisories/GHSA-hxrm-9w7p-39cc
+    detected_date: Jul 8
+    severity: high
+    first_patched: 4.1.1
+- name: Microsoft.Owin.Host.SystemWeb
+  description: OWIN server that enables OWIN-based applications to run on IIS using
+    the ASP.NET request pipeline
+  package_url: https://www.nuget.org/Microsoft.Owin.Host.SystemWeb
+  version: 3.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12970/default_54d470a1e19c265eb229b6bd88965fb8df9f9f78.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: Microsoft.Owin.Security
+  description: Common types which are shared by the various authentication middleware
+    components
+  package_url: https://www.nuget.org/Microsoft.Owin.Security
+  version: 3.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12922/default_e43fb8cd51d87352a1197706afa527de5c3baecd.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: Microsoft.Owin.Security.Cookies
+  description: Middleware that enables an application to use cookie based authentication
+  package_url: https://www.nuget.org/Microsoft.Owin.Security.Cookies
+  version: 3.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12999/default_12f7186a6d439da94c192c70c3589768d943782d.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+  vulnerabilities:
+  - name: " .NET Denial of Service Vulnerability"
+    cve_id: CVE-2022-29117
+    cve_url: https://github.com/advisories/GHSA-3rq8-h3gj-r5c6
+    detected_date: Aug 31
+    severity: high
+    first_patched: 4.2.2
+- name: Microsoft.Owin.Security.OAuth
+  description: Middleware that enables an application to support any standard OAuth
+    2.0 authentication workflow
+  package_url: https://www.nuget.org/Microsoft.Owin.Security.OAuth
+  version: 3.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12983/default_c33fee4544dbdcb376300222dc5e214ee63f7ce9.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: Microsoft.Web.Infrastructure
+  description: This package contains the Microsoft.Web.Infrastructure assembly that
+    lets you dynamically register HTTP modules at run time
+  package_url: https://www.nuget.org/Microsoft.Web.Infrastructure
+  version: 1.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12927/default_2aeaea161c566d1abfbaf3f2206fda12b1eea9cd.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: MiniProfiler
+  description: Lightweight mini-profiler
+  package_url: https://www.nuget.org/MiniProfiler
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13425/default_12ffcfadaf9c605d855c3901f9dfe0c11282537c.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: MySql.Data
+  description: MySql.Data.MySqlClient .Net Core Class Library
+  package_url: https://www.nuget.org/MySql.Data
+  version: 6.9.9
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12888/default_4e8402857d2ce7356903ee7422d9b4a0f23cc137.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: Newtonsoft.Json
+  description: Json.NET is a popular high-performance JSON framework for .NET
+  package_url: https://www.nuget.org/Newtonsoft.Json
+  version: 6.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/nuget/image.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+  vulnerabilities:
+  - name: Improper Handling of Exceptional Conditions in Newtonsoft.Json
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-5crp-9r3c-p9vr
+    detected_date: Jun 23
+    severity: high
+    first_patched: 13.0.1
+- name: SharpZipLib
+  description: SharpZipLib
+  package_url: https://www.nuget.org/SharpZipLib
+  version: 0.86.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12991/default_c33fee4544dbdcb376300222dc5e214ee63f7ce9.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+  vulnerabilities:
+  - name: Path Traversal in SharpZipLib
+    cve_id: CVE-2021-32840
+    cve_url: https://github.com/advisories/GHSA-m22m-h4rf-pwq3
+    detected_date: Feb 2
+    severity: high
+    first_patched: 1.3.3
+  - name: Improper Limitation of a Pathname to a Restricted Directory in SharpZipLib
+    cve_id: CVE-2018-1002208
+    cve_url: https://github.com/advisories/GHSA-cqj4-m2pc-v9m5
+    detected_date: Jul 1
+    severity: moderate
+    first_patched: 1.0.0-rc1
+- name: System.Collections.Immutable
+  description: This package provides collections that are thread safe and guaranteed
+    to never change their contents, also known as immutable collections
+  package_url: https://www.nuget.org/System.Collections.Immutable
+  version: 1.1.36
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12881/default_d56a77cbb06d3dae6daef9669108e3e01d2494af.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Web/packages.config
+  detection_source: UmbracoProjectTemplate.Web/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-11 11:35:45.000000000 Z
+- name: System.Reflection.Metadata
+  description: This packages provides a low-level .NET
+  package_url: https://www.nuget.org/System.Reflection.Metadata
+  version: 1.0.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13093/default_8ec8443385d582f19f93b79f0dcf69f422e58967.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Web/packages.config
+  detection_source: UmbracoProjectTemplate.Web/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-11 11:35:45.000000000 Z
+- name: UmbracoCms
+  description: Installs Umbraco Cms in your Visual Studio ASP.NET project
+  package_url: https://www.nuget.org/UmbracoCms
+  version: 5.7.5
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13397/default_a8c5a9d917d12544e0591a4182335d690601b375.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/Addition.UmbracoBasePackage.nuspec
+  detection_source: Addition.UmbracoBasePackage.nuspec
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-09-01 11:28:56.000000000 Z
+  vulnerabilities:
+  - name: Authenticated path traversal in Umbraco CMS
+    cve_id: CVE-2020-5811
+    cve_url: https://github.com/advisories/GHSA-936x-wgqv-hhgq
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 8.9.2
+  - name: Incorrect permission enforcement in UmbracoCms
+    cve_id: CVE-2020-29454
+    cve_url: https://github.com/advisories/GHSA-4vp3-vfww-8648
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 8.10.0
+  - name: Unrestricted Upload of File with Dangerous Type in Umbraco CMS
+    cve_id: CVE-2020-9472
+    cve_url: https://github.com/advisories/GHSA-j66f-h9hm-975m
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 8.5.4
+- name: UmbracoCms.Core
+  description: Contains the core assemblies needed to run Umbraco Cms
+  package_url: https://www.nuget.org/UmbracoCms.Core
+  version: 7.5.7
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12969/default_54d470a1e19c265eb229b6bd88965fb8df9f9f78.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+  vulnerabilities:
+  - name: Umbraco CMS XXE Vulnerability
+    cve_id: CVE-2017-15280
+    cve_url: https://github.com/advisories/GHSA-h2vq-7gf2-qw9v
+    detected_date: Jul 27
+    severity: moderate
+    first_patched: 
+  - name: Umbraco CMS vulnerable to stored XSS
+    cve_id: CVE-2020-5809
+    cve_url: https://github.com/advisories/GHSA-95qr-67rx-9pgh
+    detected_date: Jul 14
+    severity: moderate
+    first_patched: 
+- name: UrlRewritingNet
+  description: UrlRewritingNet.UrlRewrite is an Open Source Component for easy and
+    reliable rewriting URLs with ASP.NET
+  package_url: https://www.nuget.org/UrlRewritingNet
+  version: 2.0.7
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13823/default_8100a71695a5263017078d767966935e8f5e79d5.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: semver
+  description: A semver implementation in .Net based on the v2.0.0 of the spec found
+    at http://semver.org/
+  package_url: https://www.nuget.org/semver
+  version: 1.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14956/default_753dce338a1351731e4c43ce9405c65fd53151d4.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
+- name: uSync
+  description: Database syncing for Umbraco
+  package_url: https://www.nuget.org/uSync
+  version: 3.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15678/default_664c238d2eb1a09ce22a8ea00414a4e069eb71eb.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/Addition.UmbracoBasePackage.nuspec
+  detection_source: Addition.UmbracoBasePackage.nuspec
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-18 14:55:40.000000000 Z
+- name: xmlrpcnet
+  description: XML-RPC.NET - an XML-RPC client library for .Net
+  package_url: https://www.nuget.org/xmlrpcnet
+  version: 2.5.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13552/default_9faf684581f10d3a86d8aaaf4e8947f5acdfe877.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
+  detection_source: UmbracoProjectTemplate.Library/packages.config
+  last_updated_by: Jesper Hauge
+  last_updated_on: 2017-01-16 08:07:32.000000000 Z
