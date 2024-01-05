@@ -46,7 +46,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [IQ-IT/UmbracoProjectTemplate](https://github.com/IQ-IT/UmbracoProjectTemplate)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|55<br/>Tools used|12/27/23 <br/>Report generated|
+|55<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -232,7 +232,7 @@ Full tech stack [here](/techstack.md)
 |[Microsoft.Web.Infrastructure](https://www.nuget.org/Microsoft.Web.Infrastructure)|v1.0.0|01/16/17|Jesper Hauge |N/A|N/A|
 |[MiniProfiler](https://www.nuget.org/MiniProfiler)|v2.1.0|01/16/17|Jesper Hauge |MIT|N/A|
 |[MySql.Data](https://www.nuget.org/MySql.Data)|v6.9.9|01/16/17|Jesper Hauge |N/A|N/A|
-|[Newtonsoft.Json](https://www.nuget.org/Newtonsoft.Json)|v6.0.8|01/16/17|Jesper Hauge |MIT|[](https://github.com/advisories/GHSA-5crp-9r3c-p9vr) (High)|
+|[Newtonsoft.Json](https://www.nuget.org/Newtonsoft.Json)|v6.0.8|01/16/17|Jesper Hauge |MIT|[](https://github.com/advisories/GHSA-8rfx-6mr3-5jh3) (High)<br/>[CVE-2024-21907](https://github.com/advisories/GHSA-5crp-9r3c-p9vr) (High)|
 |[SharpZipLib](https://www.nuget.org/SharpZipLib)|v0.86.0|01/16/17|Jesper Hauge |MIT|[CVE-2021-32840](https://github.com/advisories/GHSA-m22m-h4rf-pwq3) (High)<br/>[CVE-2018-1002208](https://github.com/advisories/GHSA-cqj4-m2pc-v9m5) (Moderate)|
 |[System.Collections.Immutable](https://www.nuget.org/System.Collections.Immutable)|v1.1.36|01/11/17|Jesper Hauge |MIT|N/A|
 |[System.Reflection.Metadata](https://www.nuget.org/System.Reflection.Metadata)|v1.0.21|01/11/17|Jesper Hauge |MIT|N/A|
