@@ -1,8 +1,8 @@
 repo_name: IQ-IT/UmbracoProjectTemplate
-report_id: 3c5d5fbf63631a1827df037fc9495dc1
+report_id: 7356fa4fe77d64c388ef98d162741e37
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-27T20:00:42+00:00'
+timestamp: '2024-01-05T08:36:41+00:00'
 requested_by: jhauge
 provider: github
 branch: master
@@ -31,6 +31,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate
   detection_source: Repo Metadata
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -40,6 +41,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -50,6 +52,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate
   detection_source: Repo Metadata
 - name: Markdown
   description: Text-to-HTML conversion tool/syntax for web writers, by John Gruber
@@ -59,6 +62,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1147/markdown.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
   detection_source: UmbracoProjectTemplate.Library/packages.config
   last_updated_by: Jesper Hauge
   last_updated_on: 2017-01-16 08:07:32.000000000 Z
@@ -72,6 +76,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Web/packages.config
   detection_source: UmbracoProjectTemplate.Web/packages.config
   last_updated_by: Jesper Hauge
   last_updated_on: 2017-01-11 11:35:45.000000000 Z
@@ -85,6 +90,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
   detection_source: UmbracoProjectTemplate.Library/packages.config
   last_updated_by: Jesper Hauge
   last_updated_on: 2017-01-16 08:07:32.000000000 Z
@@ -96,6 +102,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
   detection_source: UmbracoProjectTemplate.Library/packages.config
   last_updated_by: Jesper Hauge
   last_updated_on: 2017-01-16 08:07:32.000000000 Z
@@ -107,6 +114,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate
   detection_source: Repo Metadata
 - name: NuGet
   description: The package manager for .NET
@@ -116,6 +124,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Web/packages.config
   detection_source: UmbracoProjectTemplate.Web/packages.config
   last_updated_by: Jesper Hauge
   last_updated_on: 2017-01-11 11:35:45.000000000 Z
@@ -127,6 +136,7 @@ tools:
   category: Application Hosting
   sub_category: Web Server Interface
   image_url: https://img.stackshare.io/service/4967/New_Project__95_.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Library/packages.config
   detection_source: UmbracoProjectTemplate.Library/packages.config
   last_updated_by: Jesper Hauge
   last_updated_on: 2017-01-16 08:07:32.000000000 Z
@@ -139,6 +149,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/20930/default_275fb27c037c57f3394917ebca90dc2465c97ed8.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.Web/packages.config
   detection_source: UmbracoProjectTemplate.Web/packages.config
   last_updated_by: Jesper Hauge
   last_updated_on: 2017-01-11 11:35:45.000000000 Z
@@ -151,6 +162,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Integrated Development Environment
   image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate/blob/master/UmbracoProjectTemplate.sln
   detection_source: UmbracoProjectTemplate.sln
   last_updated_by: Jesper Hauge
   last_updated_on: 2017-01-11 11:35:45.000000000 Z
@@ -162,6 +174,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/IQ-IT/UmbracoProjectTemplate
   detection_source: Repo Metadata
 - name: Umbraco
   description: Open source CMS
@@ -647,8 +660,14 @@ tools:
   last_updated_by: Jesper Hauge
   last_updated_on: 2017-01-16 08:07:32.000000000 Z
   vulnerabilities:
-  - name: Improper Handling of Exceptional Conditions in Newtonsoft.Json
+  - name: 'Duplicate Advisory: Improper Handling of Exceptional Conditions in Newtonsoft.Json'
     cve_id: 
+    cve_url: https://github.com/advisories/GHSA-8rfx-6mr3-5jh3
+    detected_date: Jan 4
+    severity: high
+    first_patched: 13.0.1
+  - name: Improper Handling of Exceptional Conditions in Newtonsoft.Json
+    cve_id: CVE-2024-21907
     cve_url: https://github.com/advisories/GHSA-5crp-9r3c-p9vr
     detected_date: Jun 23
     severity: high
